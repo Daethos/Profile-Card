@@ -1,0 +1,206 @@
+
+  {
+    box-sizing: border-box;
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+  body {
+    background-color: rgb(53, 43, 43);
+    display: flex;
+    color: white;
+    height: 1000vh;
+    padding-top: 100px;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  header > h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+
+  .profile-card {
+    display: grid;
+    margin: auto 0;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    background: hsla(0, 100%, 50%, 1);
+    background: linear-gradient(135deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 92%);
+    background: -moz-linear-gradient(135deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 92%);
+    background: -webkit-linear-gradient(135deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 92%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0000", endColorstr="#000000", GradientType=1 );
+
+  }
+
+  .contact {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact #message, #orb, #sacrifice {
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 7px;
+  }
+
+  aside > h4 {
+    font-size: 16px;
+  }
+
+  aside > p {
+    font-size: 12px;
+  }
+
+  .profile-card #message {
+    float: left;
+  }
+
+  .profile-card #orb {
+   margin: 0 auto;
+   display: inline-block; 
+  }
+
+  .profile-card #sacrifice {
+    float: right;
+  }
+
+  .skills {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    left: -17px;
+  }
+
+  button {
+    background-color: transparent;
+    font-family: 'Cinzel', serif;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .skills li {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    padding: 10px;
+    word-wrap: break-word;
+
+  }
+  .skills li:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+  }
+
+  a:hover {
+    color: black;
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+    transform: scale(1.5);
+  }
+
+  header, footer, nav {
+    grid-column: 3 / 5;
+  }
+
+  aside, main {
+    grid-row: 4 / 6;
+  }
+
+  header {
+    grid-row: 1 / 4;
+  }
+
+  header > h2, h4, h6 {
+    margin: 0 auto;
+  }
+
+  aside {
+    grid-column: 3 / 4;
+  }
+  
+  aside > p {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    position: relative;
+    left: 20px;
+  }
+
+  main {
+    grid-column: 4 / 5;
+  }
+  
+ #kills {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+
+  footer {
+    grid-row: 6 / 7;
+  }
+
+  nav {
+    border-radius: 5px;
+    grid-row: 7 / 8;
+  }
+
+  .pics {
+    border-radius: 50%;
+  }
+
+  .pics:hover {
+    transform: scale(2);
+  }
+
+  #guts {
+    border-radius: 30%;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    padding: 10px 0 0 10px;
+  }
+
+  #casca {
+    max-width: 25%;
+    max-height: 25%;
+    margin: auto 0;
+  }
+
+  #griffith {
+    max-width: 25%;
+    max-height: 25%;
+    margin: auto 0;
+  }
+
+  #kings {
+    max-width: 25%;
+    max-height: 25%;
+    margin: auto 0;
+  }
+
+  #demons {
+    max-width: 25%;
+    max-height: 20%;
+    margin: auto 0;
+  }
+ 
